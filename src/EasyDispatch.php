@@ -4,8 +4,8 @@
 namespace Hadenting\EasyDispatch;
 
 
-use App\EasyDispatch\Interfaces\JobTaskInterface;
-use App\EasyDispatch\Jobs\EasyJob;
+use Hadenting\EasyDispatch\Interfaces\JobTaskInterface;
+use Hadenting\EasyDispatch\Jobs\EasyJob;
 
 class EasyDispatch
 {

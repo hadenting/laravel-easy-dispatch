@@ -2,7 +2,7 @@
 
 namespace Hadenting\EasyDispatch\Jobs;
 
-use App\EasyDispatch\Interfaces\JobTaskInterface;
+use Hadenting\EasyDispatch\Interfaces\JobTaskInterface;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;

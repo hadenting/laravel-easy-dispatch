@@ -11,5 +11,5 @@ interface JobTaskInterface
 {
     public function handle();
 
-    public function recodeError(\Throwable $e = null);
+    public function recodeError(\Throwable $e);
 }
