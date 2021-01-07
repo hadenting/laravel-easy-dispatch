@@ -21,5 +21,12 @@
     "psr-0": {
       "EasyDispatch": "src"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Hadenting\\LaravelIdeHelper\\IdeHelperServiceProvider"
+      ]
+    }
   }
 }
