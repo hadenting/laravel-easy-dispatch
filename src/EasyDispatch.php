@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Hadenting\EasyDispatch;
+namespace EasyDispatch;
 
 
-use Hadenting\EasyDispatch\Interfaces\JobTaskInterface;
-use Hadenting\EasyDispatch\Jobs\EasyJob;
+use EasyDispatch\Interfaces\JobTaskInterface;
+use EasyDispatch\Jobs\EasyJob;
 
 class EasyDispatch
 {

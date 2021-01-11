@@ -25,7 +25,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Hadenting\\LaravelIdeHelper\\IdeHelperServiceProvider"
+        "EasyDispatch\\EasyDispatchServiceProvider"
       ]
     }
   }

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Hadenting\EasyDispatch;
+namespace EasyDispatch;
 
 
 use Carbon\Laravel\ServiceProvider;

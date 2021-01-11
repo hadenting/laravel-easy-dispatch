@@ -1,8 +1,8 @@
 <?php
 
-namespace Hadenting\EasyDispatch\Jobs;
+namespace EasyDispatch\Jobs;
 
-use Hadenting\EasyDispatch\Interfaces\JobTaskInterface;
+use EasyDispatch\Interfaces\JobTaskInterface;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;

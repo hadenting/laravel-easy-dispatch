@@ -1,6 +1,6 @@
 <?php
 
-namespace Hadenting\EasyDispatch\Interfaces;
+namespace EasyDispatch\Interfaces;
 
 /**
  * 工作任务 放到Job里的任务
