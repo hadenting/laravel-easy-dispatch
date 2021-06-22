@@ -48,8 +48,8 @@ class EasyJob implements ShouldQueue
     {
         $this->jobTask = $jobTask;
         $this->triesTimes = $triesTimes;
-        $this->dispatchNow = config('auto_move.dispatch_now', true);
-        $this->delays = config('auto_move.delays', []);
+        $this->dispatchNow = config('easy_dispatch.dispatch_now', true);
+        $this->delays = config('easy_dispatch.delays', []);
     }
 
     /**
