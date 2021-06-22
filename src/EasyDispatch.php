@@ -47,11 +47,19 @@ class EasyDispatch
         return $this->dispatchNow;
     }
 
+    public function setDispatchNow(bool $bool){
+        $this->dispatchNow = $bool;
+    }
+
     /**
      * @return \Illuminate\Config\Repository|mixed|string
      */
     protected function getQueueName()
     {
         return $this->queueName;
+    }
+
+    public function setQueueName($queueName){
+        $this->queueName = $queueName;
     }
 }
